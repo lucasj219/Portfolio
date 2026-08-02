@@ -10,12 +10,14 @@ function updateHeader() {
 function closeMenu() {
   menuToggle.classList.remove("is-open");
   navLinks.classList.remove("is-open");
+  document.body.classList.remove("menu-open");
   menuToggle.setAttribute("aria-expanded", "false");
 }
 
 menuToggle.addEventListener("click", () => {
   const isOpen = navLinks.classList.toggle("is-open");
   menuToggle.classList.toggle("is-open", isOpen);
+  document.body.classList.toggle("menu-open", isOpen);
   menuToggle.setAttribute("aria-expanded", String(isOpen));
 });
 
