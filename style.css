@@ -2821,6 +2821,15 @@ h3 { margin-bottom: 12px; font-size: clamp(1.25rem, 2vw, 2rem); line-height: 1.0
   .final-conversion-action { border-radius: 18px; padding: 26px 20px; }
 }
 
+/* O título mais longo dos cases permanece enquadrado no desktop e no mobile */
+.campaign-card[aria-label="Ver case de massoterapia"] .campaign-overlay h3 {
+  width: 100%;
+  max-width: 100%;
+  font-size: clamp(2.4rem, 6vw, 4.35rem);
+  line-height: 0.9;
+  letter-spacing: 0;
+}
+
 /* Mobile title framing — mantém os títulos no mesmo eixo visual dos cases */
 @media (max-width: 600px) {
   :root {
@@ -2853,7 +2862,7 @@ h3 { margin-bottom: 12px; font-size: clamp(1.25rem, 2vw, 2rem); line-height: 1.0
   }
 
   .campaign-card[aria-label="Ver case de massoterapia"] .campaign-overlay h3 {
-    font-size: clamp(1.95rem, 9.7vw, 2.65rem);
+    font-size: clamp(1.9rem, 9.4vw, 2.5rem);
   }
 }
 
