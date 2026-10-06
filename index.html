@@ -2,457 +2,338 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Adler Creates: produção audiovisual estratégica para empresas.">
-  <title>Adler Creates | Produção Audiovisual</title>
-    <link rel="stylesheet" href="style.css?v=massoterapia-fit-final">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Vertix Growth: vídeo, estratégia e conteúdo para empresas de Piracicaba, Campinas e região.">
+  <meta name="theme-color" content="#070a0f">
+  <title>Vertix Growth | Portfólio</title>
+  <meta property="og:title" content="Vertix Growth | Portfólio">
+  <meta property="og:description" content="Vídeo, estratégia e conteúdo para empresas de Piracicaba, Campinas e região.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=vertix-1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23070a0f'/%3E%3Cpath d='M14 9h17v17M7 16h17v17' fill='none' stroke='%2317c08f' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 </head>
 <body>
-  <header class="mobile-header" aria-label="Cabeçalho mobile">
-    <a class="mobile-brand" href="#home" aria-label="Voltar ao início">Adler_Creates</a>
-    <a class="mobile-header-cta" href="https://api.whatsapp.com/send/?phone=5519971594225&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer">Orçamento <span aria-hidden="true">↗</span></a>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <linearGradient id="vx-grad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#1fd39b"/><stop offset="1" stop-color="#0b8a80"/>
+      </linearGradient>
+      <symbol id="vx-mark" viewBox="0 0 40 40">
+        <path d="M14 7h19v19M6 15h19v19" fill="none" stroke="url(#vx-grad)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <header class="topbar" data-header>
+    <a class="brand" href="#inicio" aria-label="Vertix Growth, voltar ao início">
+      <svg class="brand-mark" aria-hidden="true"><use href="#vx-mark"/></svg>
+      <span>Vertix</span>
+    </a>
+    <nav class="topnav" aria-label="Navegação principal">
+      <a href="#trabalhos">Trabalhos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#metodo">Método</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#duvidas">Dúvidas</a>
+    </nav>
+    <a class="btn btn-small" href="https://api.whatsapp.com/send/?phone=5519971481288&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer">Pedir orçamento</a>
   </header>
-<main>
-    <section class="hero" id="home">
-      <video class="hero-bg-video" autoplay muted loop playsinline poster="assets/hero-principal-novo-poster.jpg" aria-hidden="true">
+
+  <main>
+    <section class="hero" id="inicio">
+      <video class="hero-video" autoplay muted loop playsinline poster="assets/hero-principal-novo-poster.jpg" aria-hidden="true">
         <source src="assets/hero-principal-novo.mp4?v=1" type="video/mp4">
       </video>
-      <div class="hero-shade"></div>
-      <div class="hero-minimal" aria-label="Entrada principal Adler Creates">
-        <div class="hero-link-group hero-link-group-left">
-          <a class="hero-pill" href="#cases">Portfólio</a>
-          <a class="hero-pill" href="https://www.instagram.com/adler_creates/" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a class="hero-pill" href="#metodologia-kairos">Método</a>
+      <div class="hero-plane" aria-hidden="true"></div>
+      <svg class="hero-arrow" aria-hidden="true"><use href="#vx-mark"/></svg>
+
+      <div class="hero-inner">
+        <p class="hero-wordmark" aria-label="Vertix Growth"><span class="wm-main">Vertix</span><span class="wm-sub">Growth</span></p>
+        <h1>O nosso negócio é vender o seu.</h1>
+        <p class="hero-lead">Vídeo, estratégia e conteúdo para empresas de Piracicaba, Campinas e região. A gente entende o que você vende antes de ligar a câmera.</p>
+        <div class="hero-actions">
+          <a class="btn" href="https://api.whatsapp.com/send/?phone=5519971481288&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer">Pedir orçamento no WhatsApp</a>
+          <a class="btn btn-ghost" href="#trabalhos">Ver trabalhos</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work" id="trabalhos">
+      <div class="container">
+        <header class="section-head">
+          <h2>Trabalhos recentes</h2>
+          <p>Cada vídeo foi feito para uma função: vender um produto, mostrar uma estrutura, encher uma agenda.</p>
+        </header>
+
+        <div class="work-grid">
+          <article class="case case-wide">
+            <div class="case-media">
+              <video muted loop playsinline preload="metadata" poster="assets/case-porsche-cinza-poster.jpg"><source src="assets/case-porsche-cinza.mp4" type="video/mp4"></video>
+            </div>
+            <div class="case-text">
+              <h3>Porsche</h3>
+              <p class="case-tag">Automotivo, 2026</p>
+              <p>Linhas, detalhes e movimento para dar ao carro a presença que ele tem ao vivo.</p>
+            </div>
+          </article>
+
+          <article class="case">
+            <div class="case-media">
+              <video muted loop playsinline preload="metadata" poster="assets/case-rjcell-poster.jpg"><source src="assets/case-rjcell.mp4" type="video/mp4"></video>
+            </div>
+            <div class="case-text">
+              <h3>RJ Cell</h3>
+              <p class="case-tag">Varejo de tecnologia, 2026</p>
+              <p>Da vista aérea ao café da loja, passando por iPhones, MacBooks e perfumes. Um vídeo para vender a experiência de comprar lá.</p>
+              <a class="case-link" href="https://www.instagram.com/p/DaoGtwUspkY/" target="_blank" rel="noopener noreferrer">Ver no Instagram</a>
+            </div>
+          </article>
+
+          <article class="case">
+            <div class="case-media">
+              <video muted loop playsinline preload="metadata" poster="assets/case-dukkos-poster.jpg"><source src="assets/case-dukkos.mp4" type="video/mp4"></video>
+            </div>
+            <div class="case-text">
+              <h3>Dukko's</h3>
+              <p class="case-tag">Hamburgueria, conteúdo para redes</p>
+              <p>Preparo, textura e oferta em ritmo rápido. Feito para dar fome em quem rola o feed.</p>
+            </div>
+          </article>
+
+          <article class="case">
+            <div class="case-media">
+              <video muted loop playsinline preload="metadata" poster="assets/portfolio-acai-poster.jpg"><source src="assets/portfolio-acai.mp4" type="video/mp4"></video>
+            </div>
+            <div class="case-text">
+              <h3>Esquina do Açaí</h3>
+              <p class="case-tag">Campanha local, 2026</p>
+              <p>Reabertura da loja: self-service, mais de 50 acompanhamentos e o cupuaçu cremoso como estrela.</p>
+            </div>
+          </article>
+
+          <article class="case">
+            <div class="case-media">
+              <video muted loop playsinline preload="metadata" poster="assets/case-massoterapia-poster.jpg"><source src="assets/case-massoterapia.mp4" type="video/mp4"></video>
+            </div>
+            <div class="case-text">
+              <h3>Massoterapia</h3>
+              <p class="case-tag">Bem-estar</p>
+              <p>Captação calma e sensorial para passar cuidado e técnica antes do cliente marcar horário.</p>
+            </div>
+          </article>
+
+          <article class="case">
+            <div class="case-media">
+              <video muted loop playsinline preload="metadata" poster="assets/case-academia-poster.jpg"><source src="assets/case-academia.mp4" type="video/mp4"></video>
+            </div>
+            <div class="case-text">
+              <h3>Academia</h3>
+              <p class="case-tag">Fitness, conteúdo para redes</p>
+              <p>Estrutura, intensidade e energia de treino, em cortes prontos para o Reels.</p>
+            </div>
+          </article>
+
+          <article class="case">
+            <div class="case-media">
+              <video muted loop playsinline preload="metadata" poster="assets/case-barbearia-poster.jpg"><source src="assets/case-barbearia.mp4" type="video/mp4"></video>
+            </div>
+            <div class="case-text">
+              <h3>Barbearia</h3>
+              <p class="case-tag">Serviço e atendimento</p>
+              <p>Do atendimento ao acabamento: o vídeo mostra por que vale a pena sentar naquela cadeira.</p>
+            </div>
+          </article>
+
+          <article class="case">
+            <div class="case-media">
+              <video muted loop playsinline preload="metadata" poster="assets/case-imobiliario-poster.jpg"><source src="assets/case-imobiliario.mp4" type="video/mp4"></video>
+            </div>
+            <div class="case-text">
+              <h3>Imobiliário</h3>
+              <p class="case-tag">Arquitetura e estilo de vida</p>
+              <p>Ambientes, amplitude e luz para o imóvel parecer o que vale.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients" aria-labelledby="clients-title">
+      <div class="container">
+        <h2 id="clients-title" class="clients-title">Quem já trabalhou com a gente</h2>
+        <ul class="client-row">
+          <li><a href="https://www.instagram.com/rjcellpiracicaba/" target="_blank" rel="noopener noreferrer"><img src="assets/logo-rjcell-piracicaba.jpg" alt="" loading="lazy"><span>RJ Cell Piracicaba</span></a></li>
+          <li><a href="https://www.instagram.com/sulianeveus/" target="_blank" rel="noopener noreferrer"><img src="assets/logo-suliane-neves.jpg" alt="" loading="lazy"><span>Suliane Neves</span></a></li>
+          <li><a href="https://www.instagram.com/dukkos.burguer/" target="_blank" rel="noopener noreferrer"><img src="assets/logo-dukkos.jpg" alt="" loading="lazy"><span>Dukko's</span></a></li>
+          <li><a href="https://www.instagram.com/asterbarbearia/" target="_blank" rel="noopener noreferrer"><img src="assets/logo-cliente-barbearia.png" alt="" loading="lazy"><span>Áster Barbearia</span></a></li>
+          <li><a href="https://www.instagram.com/primierbarbearia/" target="_blank" rel="noopener noreferrer"><img src="assets/logo-primier-barbearia.jpg" alt="" loading="lazy"><span>Primiér Barbearia</span></a></li>
+          <li><a href="https://www.instagram.com/esquinadoacaipiracicaba/" target="_blank" rel="noopener noreferrer"><img src="assets/logo-esquina-acai.jpg" alt="" loading="lazy"><span>Esquina do Açaí</span></a></li>
+          <li><a href="https://www.instagram.com/mmcalcados.br/" target="_blank" rel="noopener noreferrer"><img src="assets/logo-mm-calcados.jpg" alt="" loading="lazy"><span>M&amp;M Calçados</span></a></li>
+          <li><a href="https://www.instagram.com/cotrincentroautomotivo/" target="_blank" rel="noopener noreferrer"><img src="assets/logo-cotrin-automotivo.jpg" alt="" loading="lazy"><span>Cotrin Automotivo</span></a></li>
+          <li><a href="https://www.instagram.com/p/DdP3i6htsCD/" target="_blank" rel="noopener noreferrer"><img src="assets/logo-maria-terapias.jpg" alt="" loading="lazy"><span>Maria Neves</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <h2>Primeiro o negócio. Depois a câmera.</h2>
+          <p class="lead">A Vertix junta três coisas que costumam vir separadas: vídeo, estratégia e visão comercial. Empresa não precisa só de alguém que grave bem. Precisa de quem entenda o que ela vende e para quem.</p>
+          <p>Antes de qualquer gravação, a gente quer saber o que precisa ser comunicado, como a marca deve ser vista e o que faz o cliente decidir. O vídeo vem depois, a serviço disso.</p>
+
+          <dl class="fit">
+            <div>
+              <dt>Sua empresa já tem marketing</dt>
+              <dd>A gente entra como o braço de vídeo da equipe e transforma a estratégia de vocês em conteúdo bem dirigido.</dd>
+            </div>
+            <div>
+              <dt>Ainda falta direção</dt>
+              <dd>A gente conduz tudo: entendimento do negócio, posicionamento, roteiro, gravação, edição e entrega.</dd>
+            </div>
+          </dl>
+
+          <p class="facts"><strong>+2 anos</strong> de mercado e <strong>+100 empresas</strong> atendidas na região.</p>
         </div>
 
-        <a class="hero-brand-lockup" href="#cases" aria-label="Ver portfólio Adler Creates">
-          <strong>Adler_Creates</strong>
-          <small>Your brand in the new era</small>
+        <figure class="about-photo">
+          <img src="assets/guilherme-adler-profissional.jpg" alt="Guilherme Adler sentado em frente ao notebook" loading="lazy">
+          <figcaption><strong>Guilherme Adler</strong> Sócio e diretor de audiovisual</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section method" id="metodo">
+      <div class="container">
+        <header class="section-head">
+          <h2>Método Kairos</h2>
+          <p>A mensagem certa, do jeito certo, na hora certa. São quatro etapas do primeiro papo até o conteúdo no ar.</p>
+        </header>
+
+        <ol class="steps">
+          <li>
+            <h3>Clareza</h3>
+            <p>Entendemos negócio, público, objetivo e diferenciais. Saímos sabendo o que o cliente precisa perceber.</p>
+          </li>
+          <li>
+            <h3>Direção</h3>
+            <p>A estratégia vira mensagem, roteiro e lista de cenas. Ninguém chega na gravação improvisando.</p>
+          </li>
+          <li>
+            <h3>Produção</h3>
+            <p>Dirigimos pessoas, produto e ambiente para as imagens saírem naturais e fortes.</p>
+          </li>
+          <li>
+            <h3>Presença</h3>
+            <p>Edição, cor, som e ritmo. O material sai pronto para cumprir a função que foi planejada.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section services" id="servicos">
+      <div class="container">
+        <header class="section-head">
+          <h2>O que a gente faz</h2>
+        </header>
+
+        <a class="service-main" href="https://api.whatsapp.com/send/?phone=5519971481288&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer">
+          <span class="service-main-tag">Mais contratado</span>
+          <h3>Conteúdo recorrente para redes</h3>
+          <p>Gravamos na sua empresa com frequência e entregamos o mês de conteúdo editado, com estratégia por trás. Você mantém presença sem precisar ter ideia nova toda semana.</p>
+          <span class="service-main-cta">Planejar meu mês de conteúdo</span>
+          <img class="service-main-img" src="assets/vertix-feed.jpg" alt="Feed do Instagram produzido pela Vertix" loading="lazy">
         </a>
 
-        <a class="hero-chat" href="https://api.whatsapp.com/send/?phone=5519971594225&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer" aria-label="Solicitar projeto pelo WhatsApp">Contato <span aria-hidden="true">↗</span></a>
-
-        <a class="hero-scroll" href="#cases" aria-label="Ir para cases"><span aria-hidden="true"></span></a>
-      </div>
-    </section>
-
-    <section class="section cases-section" id="cases">
-      <div class="container">
-        <div class="section-heading cases-heading">
-          <a class="section-chip" href="#cases" aria-label="Ir para cases">Cases selecionados</a><a class="section-chip cases-kairos-chip" href="#metodologia-kairos" aria-label="Ir para Metodologia Kairos">Metodologia Kairos</a>
-
-
-        </div>
-        <div class="case-grid campaign-grid">
-          <a class="campaign-card campaign-card-featured campaign-card-wide" href="#contato" aria-label="Ver case Porsche cinza" data-tilt-card>
-            <div class="campaign-visual">
-              <video muted loop playsinline preload="metadata" poster="assets/case-porsche-cinza-poster.jpg"><source src="assets/case-porsche-cinza.mp4" type="video/mp4"></video>
-              <div class="campaign-overlay"><span class="campaign-index">001</span><h3>Automotivo</h3><p>Porsche • Automotivo • 2026</p></div>
-            </div>
-            <div class="campaign-detail"><p>Construção estética de performance: linhas, detalhes, movimento e presença premium em torno do Porsche cinza.</p></div>
-          </a>
-
-          <a class="campaign-card" href="https://www.instagram.com/p/DaoGtwUspkY/" target="_blank" rel="noopener noreferrer" aria-label="Ver case RJ Cell" data-tilt-card>
-            <div class="campaign-visual">
-              <video muted loop playsinline preload="metadata" poster="assets/social-media-feed.png"><source src="assets/case-rjcell.mp4" type="video/mp4"></video>
-              <div class="campaign-overlay"><span class="campaign-index">002</span><h3>RJ Cell</h3><p>Varejo tech • Experiência de marca • 2026</p></div>
-            </div>
-            <div class="campaign-detail"><p>Da vista aérea ao café, dos perfumes árabes aos iPhones, MacBooks, iPads e Apple Watch. Um vídeo para vender experiência, estrutura e atendimento.</p></div>
-          </a>
-
-          <a class="campaign-card" href="#contato" aria-label="Ver case gastronômico DUKKO'S" data-tilt-card>
-            <div class="campaign-visual">
-              <video muted loop playsinline preload="metadata" poster="assets/case-dukkos-poster.jpg"><source src="assets/case-dukkos.mp4" type="video/mp4"></video>
-              <div class="campaign-overlay"><span class="campaign-index">003</span><h3>Gastro</h3><p>Hamburgueria • Produto • Conteúdo para redes</p></div>
-            </div>
-            <div class="campaign-detail"><p>Captação e edição para apresentar produto, preparo e oferta com ritmo rápido, textura e forte apelo de consumo.</p></div>
-          </a>
-
-          <a class="campaign-card" href="#contato" aria-label="Ver case Esquina do Açaí" data-tilt-card>
-            <div class="campaign-visual">
-              <video muted loop playsinline preload="metadata" poster="assets/processo-captacao-setup.jpeg"><source src="assets/portfolio-acai.mp4" type="video/mp4"></video>
-              <div class="campaign-overlay"><span class="campaign-index">004</span><h3>Esquina</h3><p>Açaí • Campanha local • 2026</p></div>
-            </div>
-            <div class="campaign-detail"><p>Reabertura da pista, self-service, açaís, sorvetes, mais de 50 acompanhamentos e cupuaçu cremoso.</p></div>
-          </a>
-
-          <a class="campaign-card" href="#contato" aria-label="Ver case de massoterapia" data-tilt-card>
-            <div class="campaign-visual">
-              <video muted loop playsinline preload="metadata" poster="assets/case-massoterapia-poster.jpg"><source src="assets/case-massoterapia.mp4" type="video/mp4"></video>
-              <div class="campaign-overlay"><span class="campaign-index">005</span><h3>Massoterapia</h3><p>Bem-estar • Terapia • Experiência</p></div>
-            </div>
-            <div class="campaign-detail"><p>Captação sensorial para comunicar cuidado, técnica e atmosfera em uma experiência de bem-estar.</p></div>
-          </a>
-
-          <a class="campaign-card" href="#contato" aria-label="Ver case de academia" data-tilt-card>
-            <div class="campaign-visual">
-              <video muted loop playsinline preload="metadata" poster="assets/case-academia-poster.jpg"><source src="assets/case-academia.mp4" type="video/mp4"></video>
-              <div class="campaign-overlay"><span class="campaign-index">006</span><h3>Academia</h3><p>Fitness • Performance • Conteúdo para redes</p></div>
-            </div>
-            <div class="campaign-detail"><p>Captação dinâmica para comunicar estrutura, intensidade e energia em uma experiência de treino.</p></div>
-          </a>
-
-          <a class="campaign-card" href="#contato" aria-label="Ver case de barbearia" data-tilt-card>
-            <div class="campaign-visual">
-              <video muted loop playsinline preload="metadata" poster="assets/case-barbearia-poster.jpg"><source src="assets/case-barbearia.mp4" type="video/mp4"></video>
-              <div class="campaign-overlay"><span class="campaign-index">007</span><h3>Barbearia</h3><p>Atendimento • Técnica • Experiência</p></div>
-            </div>
-            <div class="campaign-detail"><p>Conteúdo para apresentar atendimento, técnica, acabamento e a experiência completa dentro da barbearia.</p></div>
-          </a>
-
-          <a class="campaign-card" href="#contato" aria-label="Ver case imobiliário" data-tilt-card>
-            <div class="campaign-visual">
-              <video muted loop playsinline preload="metadata" poster="assets/case-imobiliario-poster.jpg"><source src="assets/case-imobiliario.mp4" type="video/mp4"></video>
-              <div class="campaign-overlay"><span class="campaign-index">008</span><h3>Imobiliário</h3><p>Imóveis • Arquitetura • Estilo de vida</p></div>
-            </div>
-            <div class="campaign-detail"><p>Narrativa visual para apresentar arquitetura, ambientes e estilo de vida com movimento, amplitude e percepção de valor.</p></div>
-          </a>
-        </div>      </div>
-    </section>
-
-    <section class="section client-section" id="clientes">
-      <div class="container">
-        <div class="client-heading reveal">
-          <p class="eyebrow">Clientes</p>
-          <h2>Nossos clientes.</h2>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="client-logo-grid reveal" aria-label="Marcas que já trabalharam com a Adler Creates">
-          <a class="client-brand" href="https://www.instagram.com/rjcellpiracicaba/" target="_blank" rel="noopener noreferrer" aria-label="RJ Cell Piracicaba no Instagram">
-            <img src="assets/logo-rjcell-piracicaba.jpg" alt="Logo da RJ Cell Piracicaba">
-            <span>RJ Cell Piracicaba</span>
-          </a>
-          <a class="client-brand" href="https://www.instagram.com/sulianeveus/" target="_blank" rel="noopener noreferrer" aria-label="Suliane Neves no Instagram">
-            <img src="assets/logo-suliane-neves.jpg" alt="Identidade visual de Suliane Neves">
-            <span>Suliane Neves</span>
-          </a>
-          <a class="client-brand" href="https://www.instagram.com/dukkos.burguer/" target="_blank" rel="noopener noreferrer" aria-label="Dukko's no Instagram">
-            <img src="assets/logo-dukkos.jpg" alt="Logo da Dukko's Hambúrgueria">
-            <span>Dukko's</span>
-          </a>
-          <a class="client-brand" href="https://www.instagram.com/asterbarbearia/" target="_blank" rel="noopener noreferrer" aria-label="Áster Barbearia no Instagram">
-            <img src="assets/logo-cliente-barbearia.png" alt="Logo da Áster Barbearia">
-            <span>Áster Barbearia</span>
-          </a>
-          <a class="client-brand" href="https://www.instagram.com/primierbarbearia/" target="_blank" rel="noopener noreferrer" aria-label="Primiér Barbearia no Instagram">
-            <img src="assets/logo-primier-barbearia.jpg" alt="Logo da Primiér Barbearia">
-            <span>Primiér Barbearia</span>
-          </a>
-          <a class="client-brand" href="https://www.instagram.com/esquinadoacaipiracicaba/" target="_blank" rel="noopener noreferrer" aria-label="Esquina do Açaí Piracicaba no Instagram">
-            <img src="assets/logo-esquina-acai.jpg" alt="Logo da Esquina do Açaí Piracicaba">
-            <span>Esquina do Açaí</span>
-          </a>
-          <a class="client-brand" href="https://www.instagram.com/mmcalcados.br/" target="_blank" rel="noopener noreferrer" aria-label="M&M Calçados no Instagram">
-            <img src="assets/logo-mm-calcados.jpg" alt="Logo da M&M Calçados">
-            <span>M&amp;M Calçados</span>
-          </a>
-          <a class="client-brand" href="https://www.instagram.com/cotrincentroautomotivo/" target="_blank" rel="noopener noreferrer" aria-label="Cotrin Centro Automotivo no Instagram">
-            <img src="assets/logo-cotrin-automotivo.jpg" alt="Logo do Cotrin Centro Automotivo">
-            <span>Cotrin Automotivo</span>
-          </a>
-          <a class="client-brand" href="https://www.instagram.com/p/DdP3i6htsCD/" target="_blank" rel="noopener noreferrer" aria-label="Maria Neves Massoterapeuta no Instagram">
-            <img src="assets/logo-maria-terapias.jpg" alt="Logo de Maria Neves Massoterapeuta">
-            <span>Maria Neves</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section about-adler-section" id="sobre">
-      <div class="container">
-        <header class="about-adler-head reveal">
-          <p class="eyebrow">Sobre a Adler</p>
-          <h2>O seu negócio primeiro.<br>A câmera depois.</h2>
-        </header>
-
-        <div class="about-adler-grid">
-          <figure class="about-adler-photo reveal">
-            <img src="assets/guilherme-adler-profissional.jpg" alt="Guilherme Adler trabalhando em frente ao notebook">
-            <figcaption>
-              <strong>Guilherme Adler</strong>
-              <span>Videomaker e estrategista criativo</span>
-            </figcaption>
-          </figure>
-
-          <div class="about-adler-content reveal">
-            <p class="about-adler-lead">A Adler Creates nasceu da união entre vendas, marketing e audiovisual. Criei a produtora porque empresas não precisam apenas de alguém que saiba gravar. Precisam de um parceiro que entenda o negócio antes de ligar a câmera.</p>
-            <p class="about-adler-body">Sou Guilherme Adler. Em cada projeto, penso junto com a empresa: o que precisa ser comunicado, como a marca deve ser percebida e qual narrativa pode transformar atenção em confiança, reconhecimento e oportunidades reais.</p>
-
-            <div class="about-adler-partnership">
-              <article>
-                <span>Se sua empresa já tem uma equipe de marketing</span>
-                <p>Entro como braço audiovisual da equipe, transformando estratégia em conteúdo bem dirigido e preparado para gerar resultados.</p>
-              </article>
-              <article>
-                <span>Se ainda falta direção e execução</span>
-                <p>Conduzo o projeto de ponta a ponta: entendimento, roteiro, captação, edição e entrega.</p>
-              </article>
-              <article>
-                <span>O que guia cada trabalho</span>
-                <p>Intencionalidade em cada enquadramento, relação transparente e estética sempre a serviço do resultado.</p>
-              </article>
-            </div>
-
-            <p class="about-adler-statement">Vídeo bonito chama atenção.<br><strong>Vídeo pensado constrói confiança.</strong></p>
-
-            <div class="about-adler-actions">
-              <a class="btn btn-primary" href="#contato">Pensar um projeto juntos</a>
-              <a class="about-adler-story" href="https://www.instagram.com/p/DchQkLBmfZK/" target="_blank" rel="noopener noreferrer">Conheça minha trajetória ↗</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section kairos-clean-intro" id="metodologia-kairos">
-      <div class="container">
-        <div class="kairos-clean-meta reveal">
-          <p class="eyebrow">Metodologia Kairos</p>
-          <span>Estratégia audiovisual · Processo autoral</span>
-        </div>
-
-        <div class="kairos-clean-title reveal">
-          <h2>A mensagem certa.<br><em>Da forma certa.</em><br>No momento certo.</h2>
-          <div class="kairos-clean-copy">
-            <p>Kairos é o método da Adler Creates para transformar estratégia em conteúdo com intenção, direção e presença.</p>
-            <p>Antes de gravar, entendemos o que a marca precisa comunicar. Depois, construímos a forma mais forte de fazer essa mensagem ser percebida.</p>
-            <a href="#metodo">Entender o processo <span aria-hidden="true">↓</span></a>
-          </div>
-        </div>
-
-        <div class="kairos-clean-principles reveal" aria-label="Princípios da Metodologia Kairos">
-          <span>Clareza antes da câmera</span>
-          <span>Direção em cada escolha</span>
-          <span>Conteúdo com função</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section kairos-process" id="metodo">
-      <div class="container">
-        <header class="kairos-process-head reveal">
-          <p class="eyebrow">Processo</p>
-          <h2>Como o Kairos funciona.</h2>
-          <p>Quatro momentos organizam o projeto do primeiro alinhamento até a presença da marca no mundo.</p>
-        </header>
-
-        <div class="kairos-process-grid reveal">
+        <div class="service-list">
           <article>
-            <span>01</span>
-            <h3>Clareza</h3>
-            <p>Entendemos negócio, público, objetivo e diferenciais para definir o que precisa ser percebido.</p>
-            <small>Diagnóstico · Intenção</small>
+            <h3>Estratégia e posicionamento</h3>
+            <p>Comunicação alinhada ao público e ao objetivo comercial. Para a marca parar de postar por obrigação e começar a vender com consistência.</p>
           </article>
           <article>
-            <span>02</span>
-            <h3>Direção</h3>
-            <p>Transformamos a estratégia em mensagem, roteiro, cenas e preparação para a captação.</p>
-            <small>Narrativa · Preparação</small>
+            <h3>Vídeo institucional</h3>
+            <p>Quem a empresa é, o que faz e como trabalha. Serve para site, apresentação comercial, feira e recepção.</p>
           </article>
           <article>
-            <span>03</span>
-            <h3>Produção</h3>
-            <p>Conduzimos pessoas, produto e ambiente para construir imagens naturais, fortes e coerentes.</p>
-            <small>Captação · Direção</small>
+            <h3>Cobertura de eventos</h3>
+            <p>Congressos, feiras, inaugurações e treinamentos. Você recebe o filme do evento e os cortes prontos para as redes.</p>
           </article>
           <article>
-            <span>04</span>
-            <h3>Presença</h3>
-            <p>Edição, cor, som e ritmo transformam o material em conteúdo pronto para cumprir sua função.</p>
-            <small>Construção · Ativação</small>
+            <h3>Vídeo imobiliário</h3>
+            <p>Tour de imóvel, lançamento e imagens aéreas com drone. Também treinamos corretores para gravarem melhor no dia a dia.</p>
+          </article>
+          <article>
+            <h3>Vídeo com IA</h3>
+            <p>Para o que não dá para filmar: cenas impossíveis, produtos que ainda não existem, animação e motion.</p>
+          </article>
+          <article>
+            <h3>Só edição</h3>
+            <p>Tem material parado no cartão? A gente cuida de corte, legenda, cor e trilha, e entrega por link.</p>
           </article>
         </div>
-
-        <div class="kairos-process-result reveal">
-          <span>O resultado</span>
-          <p>Menos conteúdo produzido por obrigação.<br><strong>Mais presença construída com intenção.</strong></p>
-          <a class="btn btn-primary" href="#contato">Construir minha presença</a>
-        </div>
-      </div>
-    </section>
-    <section class="section services-section" id="servicos">
-      <div class="container services-grid-layout">
-        <div class="section-heading services-heading reveal">
-          <p class="eyebrow">Serviços</p>
-          <h2>O que a gente produz.</h2>
-        </div>
-
-        <div class="service-list" aria-label="Soluções audiovisuais em sequência de baixo para cima">
-          <a class="service-card reveal" href="#contato">
-            <span class="service-number">01</span>
-            <div class="service-copy">
-              <h3>Vídeo institucional</h3>
-              <p>O vídeo que apresenta a empresa inteira: quem ela é, o que faz e como trabalha. Roteiro, captação, edição e entrega. Serve para o site, apresentações comerciais, feiras e recepções.</p>
-            </div>
-            <span class="service-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="service-card reveal" href="#contato">
-            <span class="service-number">02</span>
-            <div class="service-copy">
-              <h3>Cobertura de eventos</h3>
-              <p>Congressos, feiras, convenções, inaugurações e treinamentos. Cobrimos o dia inteiro, e você recebe o filme do evento e os cortes prontos para as redes sociais.</p>
-            </div>
-            <span class="service-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="service-card reveal" href="#contato">
-            <span class="service-number">03</span>
-            <div class="service-copy">
-              <h3>Vídeo imobiliário</h3>
-              <p>Tour de imóvel, lançamento de empreendimento e captação aérea com drone. Também produzimos treinamentos em vídeo para a equipe comercial, ajudando o corretor a gravar melhor no dia a dia.</p>
-            </div>
-            <span class="service-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="service-card reveal" href="#contato">
-            <span class="service-number">04</span>
-            <div class="service-copy">
-              <h3>Vídeo com IA</h3>
-              <p>Para o que não dá para filmar: cenas impossíveis, produtos que ainda não existem, animações e motion design. A IA entra como recurso quando resolve melhor do que a câmera.</p>
-            </div>
-            <span class="service-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="service-card reveal" href="#contato">
-            <span class="service-number">05</span>
-            <div class="service-copy">
-              <h3>Edição</h3>
-              <p>Você já tem o material e ele está parado no cartão. A gente assume o corte, a legenda, a cor e a trilha. Entrega por link, no prazo combinado.</p>
-            </div>
-            <span class="service-arrow" aria-hidden="true">↗</span>
-          </a>
-
-          <a class="service-card service-card-featured reveal" href="#contato">
-            <span class="service-number">06</span>
-            <div class="service-copy">
-              <p class="service-kicker">Oferta principal</p>
-              <h3>Recorrente para redes</h3>
-              <p>Captação periódica na sua empresa, com material editado para as redes ao longo do mês. Para quem precisa manter presença sem depender de ter uma ideia nova toda semana.</p>
-              <span class="service-cta">Quero planejar meu mês de conteúdo</span>
-            </div>
-            <span class="service-arrow" aria-hidden="true">↗</span>
-          </a>
-        </div>
       </div>
     </section>
 
-    <section class="section vertix-section" id="vertix">
-      <div class="container">
-        <header class="vertix-growth-head reveal">
-          <div>
-            <p class="eyebrow">Sócio · Vertix Growth</p>
-            <h2>Não é só conteúdo.<br><em>É crescimento com direção.</em></h2>
-          </div>
-          <p>Hoje, além de liderar a Adler Creates, sou sócio da Vertix Growth. Essa união coloca produção audiovisual, estratégia e visão de negócio na mesma mesa.</p>
-        </header>
-
-        <div class="vertix-growth-grid">
-          <div class="vertix-growth-copy reveal">
-            <p class="vertix-growth-slogan">O nosso negócio é vender o seu.</p>
-            <p class="vertix-growth-intro">A Adler constrói a mensagem, a narrativa e a imagem. A Vertix conecta esse conteúdo ao posicionamento e à estratégia necessária para transformar atenção em oportunidade.</p>
-
-            <div class="vertix-growth-flow" aria-label="Como a solução integrada gera crescimento">
-              <article>
-                <span>01</span>
-                <div><h3>Audiovisual que prende a atenção</h3><p>Conteúdo pensado para interromper o automático, apresentar valor e fazer a marca ser percebida.</p></div>
-              </article>
-              <article>
-                <span>02</span>
-                <div><h3>Estratégia que direciona</h3><p>Comunicação alinhada ao posicionamento, ao público e ao objetivo comercial da empresa.</p></div>
-              </article>
-              <article>
-                <span>03</span>
-                <div><h3>Crescimento que evolui</h3><p>Uma presença que deixa de publicar por obrigação e passa a aprender, ajustar e vender com mais consistência.</p></div>
-              </article>
-            </div>
-
-            <div class="vertix-growth-actions">
-              <a class="btn vertix-btn" href="#contato">Quero uma estratégia completa</a>
-              <a class="vertix-instagram" href="https://www.instagram.com/vertixgrowth/" target="_blank" rel="noopener noreferrer">Conhecer a Vertix ↗</a>
-            </div>
-          </div>
-
-          <div class="vertix-growth-visual reveal">
-            <img class="vertix-growth-cover" src="assets/vertix-deck-cover.jpg" alt="Identidade visual da Vertix Growth">
-            <div class="vertix-growth-miniatures">
-              <img src="assets/vertix-deck-social.jpg" alt="Estratégia de social media da Vertix Growth">
-              <img src="assets/vertix-deck-visual.jpg" alt="Projetos visuais da Vertix Growth">
-            </div>
-          </div>
-        </div>
-
-        <div class="vertix-growth-proof reveal" aria-label="Experiência da Vertix Growth">
-          <div><strong>+2</strong><span>anos de mercado</span></div>
-          <div><strong>+100</strong><span>empresas atendidas</span></div>
-          <div><strong>1</strong><span>frente integrada de audiovisual e estratégia</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section faq-section" id="duvidas">
-      <div class="container faq-layout">
-        <div class="faq-heading reveal">
-          <p class="eyebrow">Dúvidas</p>
-          <h2>Algumas dúvidas.</h2>
-          <p>O que você precisa saber antes de tirar o projeto do papel.</p>
-        </div>
-
-        <div class="faq-list reveal">
+    <section class="section faq" id="duvidas">
+      <div class="container faq-grid">
+        <h2>Dúvidas comuns</h2>
+        <div class="faq-list">
           <details open>
             <summary>Quais regiões vocês atendem?</summary>
-            <p>Piracicaba, Campinas e toda a região. O deslocamento entra na proposta como valor fechado: você vê antes, não depois.</p>
+            <p>Piracicaba, Campinas e região. O deslocamento entra na proposta como valor fechado, então você sabe o custo antes.</p>
           </details>
           <details>
-            <summary>Qual é o prazo de entrega?</summary>
-            <p>Entregamos com rapidez: os materiais ficam prontos em até <strong>7 dias úteis</strong>, ou no prazo que combinarmos para o seu projeto.</p>
+            <summary>Vocês só gravam ou cuidam da estratégia também?</summary>
+            <p>Os dois. Dá para contratar só a produção do vídeo ou o pacote completo, com estratégia e posicionamento junto.</p>
           </details>
           <details>
-            <summary>Preciso chegar com o roteiro pronto?</summary>
-            <p>Não precisa. Entramos como parceiros desde a ideia e ajudamos a definir o roteiro, o formato e o que faz sentido mostrar para o seu público. Se você já tem um roteiro, trabalhamos juntos a partir dele.</p>
+            <summary>Qual o prazo de entrega?</summary>
+            <p>Até 7 dias úteis, ou o prazo que a gente combinar para o seu projeto.</p>
+          </details>
+          <details>
+            <summary>Preciso chegar com roteiro pronto?</summary>
+            <p>Não. A gente ajuda a definir roteiro, formato e o que vale mostrar para o seu público. Se você já tem um roteiro, partimos dele.</p>
           </details>
           <details>
             <summary>Como funciona o pagamento?</summary>
-            <p>50% para reservar a data no calendário e 50% na entrega.</p>
+            <p>50% para reservar a data e 50% na entrega.</p>
           </details>
         </div>
       </div>
     </section>
 
-    <section class="section final-cta" id="contato">
-      <div class="container final-conversion reveal">
-        <div class="final-conversion-copy">
-          <p class="eyebrow">Contato</p>
-          <h2>Chega de conteúdo que só preenche o feed.</h2>
-          <p>Sua empresa precisa ser percebida, lembrada e escolhida. Conte o que você quer construir e vamos transformar isso em uma produção com estratégia, direção e intenção de venda.</p>
-          <p class="final-conversion-pressure">Enquanto você adia, outra marca ocupa a atenção do seu cliente.</p>
+    <section class="contact" id="contato">
+      <svg class="contact-arrow" aria-hidden="true"><use href="#vx-mark"/></svg>
+      <div class="container contact-inner">
+        <h2>Conta pra gente o que você quer vender.</h2>
+        <p>Respondemos em até 24 horas com escopo e valor claros.</p>
+        <div class="hero-actions">
+          <a class="btn" href="https://api.whatsapp.com/send/?phone=5519971481288&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+          <a class="btn btn-ghost" href="https://www.instagram.com/vertixgrowth/" target="_blank" rel="noopener noreferrer">Ver o Instagram</a>
         </div>
-
-        <aside class="final-conversion-action">
-          <span>Pronto para começar?</span>
-          <h3>Conte para a gente o que você precisa.</h3>
-          <p>Respondemos em até 24 horas com os próximos passos para colocar seu projeto em movimento.</p>
-          <a class="btn btn-primary" href="https://api.whatsapp.com/send/?phone=5519971594225&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer">Quero começar agora ↗</a>
-          <div class="final-conversion-trust">
-            <span>Resposta em até 24 horas</span>
-            <span>Escopo e valor claros</span>
-            <span>Entrega em até 7 dias úteis</span>
-          </div>
-          <a class="final-instagram" href="https://www.instagram.com/adler_creates/" target="_blank" rel="noopener noreferrer">Ver Instagram da Adler Creates ↗</a>
-        </aside>
       </div>
     </section>
   </main>
 
-  <nav class="mobile-dock" aria-label="Navegação mobile">
-    <a href="#cases" data-mobile-nav="cases"><span aria-hidden="true">01</span>Cases</a>
-    <a href="#metodologia-kairos" data-mobile-nav="metodologia-kairos"><span aria-hidden="true">02</span>Método</a>
-    <a href="#contato" data-mobile-nav="contato"><span aria-hidden="true">03</span>Contato</a>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#inicio" aria-label="Vertix Growth, voltar ao início">
+        <svg class="brand-mark" aria-hidden="true"><use href="#vx-mark"/></svg>
+        <span>Vertix Growth</span>
+      </a>
+      <p>Piracicaba, Campinas e região</p>
+    </div>
+  </footer>
+
+  <nav class="dock" aria-label="Navegação mobile">
+    <a href="#trabalhos" data-dock="trabalhos">Trabalhos</a>
+    <a href="#servicos" data-dock="servicos">Serviços</a>
+    <a class="dock-cta" href="https://api.whatsapp.com/send/?phone=5519971481288&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener noreferrer">Orçamento</a>
   </nav>
 
-  <footer class="footer"><div class="container footer-content"><p>Adler Creates</p><div class="footer-links"><a href="#cases">Cases</a><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#duvidas">Dúvidas</a><a href="#contato">Contato</a></div></div></footer>
-  <script src="script.js"></script>
+  <script src="script.js?v=vertix-1"></script>
 </body>
 </html>
