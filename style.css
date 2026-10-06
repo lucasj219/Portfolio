@@ -2820,3 +2820,48 @@ h3 { margin-bottom: 12px; font-size: clamp(1.25rem, 2vw, 2rem); line-height: 1.0
   .final-conversion { gap: 46px; }
   .final-conversion-action { border-radius: 18px; padding: 26px 20px; }
 }
+
+/* Mobile title framing — mantém os títulos no mesmo eixo visual dos cases */
+@media (max-width: 600px) {
+  :root {
+    --mobile-gutter: 20px;
+  }
+
+  .about-adler-head h2,
+  .kairos-clean-title h2,
+  .kairos-process-head h2,
+  .services-heading h2,
+  .client-heading h2,
+  .vertix-growth-head h2,
+  .faq-heading h2,
+  .final-conversion-copy h2 {
+    max-width: 100%;
+    margin-right: 0;
+    font-size: clamp(2.2rem, 10.6vw, 3.05rem);
+    line-height: 0.98;
+    letter-spacing: -0.025em;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .campaign-overlay h3 {
+    width: 100%;
+    max-width: 100%;
+    font-size: clamp(2.35rem, 11.6vw, 3.15rem);
+    line-height: 0.9;
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .about-adler-head h2,
+  .kairos-clean-title h2,
+  .kairos-process-head h2,
+  .services-heading h2,
+  .client-heading h2,
+  .vertix-growth-head h2,
+  .faq-heading h2,
+  .final-conversion-copy h2 {
+    font-size: clamp(2.05rem, 10.2vw, 2.6rem);
+  }
+}
