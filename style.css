@@ -2851,6 +2851,10 @@ h3 { margin-bottom: 12px; font-size: clamp(1.25rem, 2vw, 2rem); line-height: 1.0
     line-height: 0.9;
     letter-spacing: 0;
   }
+
+  .campaign-card[aria-label="Ver case de massoterapia"] .campaign-overlay h3 {
+    font-size: clamp(1.95rem, 9.7vw, 2.65rem);
+  }
 }
 
 @media (max-width: 380px) {
